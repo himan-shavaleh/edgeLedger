@@ -1,0 +1,35 @@
+// import font families
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto+Condensed:ital@1&display=swap');
+
+// set defaults
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato' ,sans-serif;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+h1,h2,h3{
+    font-family: 'roboto Condensed' , sans-serif!important;
+}
+
+
+// color variables
+$color-primary:#2e4d59;
+$color-orange:#f29727;
+$color-brown:#a64f03;
+$color-dark:#260f01;
+$color-light:#f3f3f3;
+
+

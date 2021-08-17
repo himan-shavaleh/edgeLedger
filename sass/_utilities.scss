@@ -1,0 +1,146 @@
+.circle{
+    border-radius: 50%;
+}
+// displlay classes
+.d-flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.d-block{
+    display: block;
+}
+.d-inline-block{
+    display: block;
+}
+
+
+// background classe
+.bg-primary{
+    background: $color-primary;
+
+}
+.bg-light{
+    background: $color-light;
+}
+.bg-orange{
+    background: $color-orange;
+}
+
+
+// text classes
+.text-capitalize{
+    text-transform: capitalize;
+}
+.text-center{
+    text-align: center;
+}
+.text-orange{
+    color: $color-orange;
+}
+.text-brown{
+    color: $color-brown;
+}
+.text-light{
+    color: $color-light;
+}
+.text-primary{
+    color: $color-primary;
+}
+.text-dark{
+    color: $color-dark;
+}
+
+// margin and padding classes
+.m-1{
+    margin: 1rem;
+}
+.m-2{
+    margin: 1.3rem;
+}
+.m-3{
+    margin: 1.7rem;
+}
+.m-x-1{
+    margin:0 1rem;
+}
+.m-x-2{
+    margin:0 1.3rem;
+}
+.m-x-3{
+    margin:0 1.7rem;
+}
+.m-y-1{
+    margin: 1rem 0;
+}
+.m-y-2{
+    margin: 1.3rem 0;
+}
+.m-y-3{
+    margin: 1.7rem 0;
+}
+.p-1{
+    padding: 1rem;
+}
+.p-2{
+    padding: 1.3rem;
+}
+.p-3{
+    padding: 1.7rem;
+}
+.p-x-1{
+    padding:0 1rem;
+}
+.p-x-2{
+    padding:0 1.3rem;
+}
+.p-x-3{
+    padding:0 1.7rem;
+}
+.p-y-1{
+    padding: 1rem 0;
+}
+.p-y-2{
+    padding: 1.3rem 0;
+}
+.p-y-3{
+    padding: 1.7rem 0;
+}
+
+.center{
+    justify-content: center;
+      align-items: center;
+      text-align: center;
+}
+
+// button classes
+.btn-orange{
+    background: $color-orange;
+    padding:10px 20px!important;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    border: 1px solid $color-light;
+    transition: all 0.5s;
+    &:hover{
+        border-color:$color-orange ;
+        background: transparent;
+
+    }
+}
+.btn-outline-light{
+
+    padding:10px 20px!important;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    border: 1px solid $color-light;
+    transition: all 0.5s;
+    &:hover{
+        border-color:$color-orange ;
+        background: transparent;
+
+    }
+}
