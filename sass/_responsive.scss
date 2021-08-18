@@ -1,0 +1,43 @@
+@media screen and (min-width:769px) {
+    .navbar{
+        display: flex;
+        justify-content: space-evenly;
+        .nav{
+            .nav-list{
+                margin-left: 50px;
+            }
+        }
+    }
+    #about{
+        display: flex;
+        .case{
+            padding: 0 20px;
+        }
+    }
+    #solution{
+        display: flex;
+    }
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row!important;
+        .gal-team{
+            flex: 50%!important;
+        }
+    }
+    #blog{
+        display: flex;
+    }
+    .members{
+        display: flex;
+       width: 100vw;
+       .team-member{
+           img{
+           width: 100%!important;
+           }
+        }
+    }
+    #callback{
+        display: flex!important;
+    }
+}

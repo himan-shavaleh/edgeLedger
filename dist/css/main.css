@@ -315,6 +315,72 @@ h1, h2, h3 {
   z-index: 10;
 }
 
+@media screen and (min-width: 769px) {
+  .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .navbar .nav .nav-list {
+    margin-left: 50px;
+  }
+  #about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #about .case {
+    padding: 0 20px;
+  }
+  #solution {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  .gallery .gal-team {
+    -webkit-box-flex: 50% !important;
+        -ms-flex: 50% !important;
+            flex: 50% !important;
+  }
+  #blog {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .members {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+  }
+  .members .team-member img {
+    width: 100% !important;
+  }
+  #callback {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+.navbar.top {
+  background: transparent !important;
+}
+
 #header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -334,13 +400,20 @@ h1, h2, h3 {
 }
 
 #header::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
   background: rgba(38, 15, 1, 0.4);
   top: 0;
   left: 0;
+}
+
+#header .navbar {
+  background: rgba(38, 15, 1, 0.7);
+  position: fixed;
+  width: 100vw;
+  z-index: 101;
 }
 
 #header .navbar a {
@@ -458,6 +531,9 @@ h1, h2, h3 {
 
 #footer {
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 #footer .social a {
