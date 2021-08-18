@@ -68,6 +68,11 @@ h1, h2, h3 {
   background: #f29727;
 }
 
+.bg-dark {
+  background: #260f01;
+  color: #f3f3f3;
+}
+
 .text-capitalize {
   text-transform: capitalize;
 }
@@ -207,6 +212,37 @@ h1, h2, h3 {
   background: transparent;
 }
 
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 50vh;
+  margin: 0 !important;
+  width: 100vw;
+  padding: 20px 0;
+}
+
+.content * {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.content p {
+  max-width: 600px;
+}
+
+.content a {
+  width: 200px;
+  text-align: center;
+}
+
 #header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -271,23 +307,23 @@ h1, h2, h3 {
   width: 100vw;
 }
 
-#solution .solution-content {
-  margin: 0 !important;
+#cases {
   width: 100vw;
-  padding: 20px 0;
-}
-
-#solution .solution-content * {
-  padding-left: 20px;
-  margin: 20px 20px;
-}
-
-#solution .solution-content p {
-  max-width: 600px;
 }
 
 #cases .gallery {
-  padding: 10px 40px 5px;
+  padding: 20px 40px 20px 20px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #cases .gallery .gal-team {
@@ -305,5 +341,65 @@ h1, h2, h3 {
 #cases .gallery .gal-team .gal-item:hover {
   opacity: 0.4;
   cursor: pointer;
+}
+
+#blog img {
+  width: 100vw;
+}
+
+#team {
+  padding-bottom: 20px;
+  width: 100vw;
+  text-align: center;
+}
+
+#team img {
+  width: 90vw;
+}
+
+#callback .callback-form input {
+  display: block;
+  width: 80%;
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: 1px solid #2e4d59;
+  color: #2e4d59;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+#callback .callback-form input:focus {
+  outline: none;
+  color: #f29727;
+  border-color: #f29727;
+}
+
+#callback .callback-form button {
+  display: block;
+  width: 80%;
+}
+
+#callback .callback-form button:hover {
+  color: #f29727 !important;
+  cursor: pointer;
+}
+
+#footer {
+  text-align: center;
+}
+
+#footer .social a {
+  margin: 10px;
+  color: #f3f3f3;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+#footer .social a:hover {
+  color: #2e4d59;
+}
+
+#footer p {
+  margin-top: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
