@@ -1,0 +1,23 @@
+#post-content{
+    height: 80vh;
+    padding: 20px;
+    h2{
+        display: block;
+        border-bottom: 1px solid $color-primary;
+        padding: 10px;
+    }
+    h4{
+        margin-top: 10px;
+        font-size: 0.8rem;
+    }
+    .post-content{
+        text-align: center;
+        img{
+            width: 300px;
+            margin: 40px 0;
+        }
+    p{
+        padding: 20px;
+    }
+    }
+}

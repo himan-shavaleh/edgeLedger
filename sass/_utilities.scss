@@ -147,7 +147,20 @@
 
     }
 }
+.btn-outline-primary{
 
+    padding:10px 20px!important;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    border: 1px solid $color-primary;
+    transition: all 0.5s;
+    &:hover{
+        border-color:$color-orange;
+        background: $color-primary;
+        color: $color-light;
+
+    }
+}
 .content{
         display: flex;
         flex-direction: column;
